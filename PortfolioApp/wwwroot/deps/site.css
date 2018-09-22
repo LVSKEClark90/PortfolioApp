@@ -1,12 +1,61 @@
+/* Universal Elements */
+body {
+    background-image: url("../images/iULOS.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    font-size: 75px;
+    color: #ffffff;
+}
+p {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+/* Navbar Customizations */
 .navbar {
-    background:#008000;
-    height:55px;
+    background:rgba(25, 25, 25, 0.8);
+    padding:4px;
 }
-
-.navbar-brand {
+.navbar .navbar-default {
+    position:fixed;
+}
+.navbar-default .navbar-brand {
     font-size:xx-large;
+    color:#ffffff;
 }
-
 .nav-item {
     font-size:large;
+    color:#000000;
+}
+.nav-link {
+    color:#ffffff;
+}
+.nav-link:hover {
+    color:#000000;
+}
+.nav-pills {
+    padding-top:2px;
+}
+
+/* Objective Page Customizations */
+.objective .row {
+    background:rgba(0, 100, 0, 0.8);
+    text-align:justify;
+    height:350px;
+}
+.objective > .row > .objective-text {
+    padding-top:25px;
+}
+
+/* Education Page Customizations */
+.education .row {
+    background:rgba(0, 0, 100, 0.8);
+    text-align:justify;
+    height:500px;
+}
+.educationCarousel .carousel-inner {
+    position:static;
 }
