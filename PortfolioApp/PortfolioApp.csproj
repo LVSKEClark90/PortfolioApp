@@ -5,12 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\Shared\_layout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Shared\" />
-    <Folder Include="wwwroot\images\" />
+    <None Include="Pages\Shared\_layout.cshtml" />
   </ItemGroup>
 
 </Project>
