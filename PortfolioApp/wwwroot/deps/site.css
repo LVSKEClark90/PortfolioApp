@@ -48,7 +48,7 @@ p {
 }
 
 /* !Objective */
-#objectiveSection {
+#objective {
     margin-top:175px;
     background:#252525;
     background:rgba(100, 100, 100, 0.5);
@@ -73,12 +73,30 @@ p {
 .educationText {
     margin-top:90px;
 }
+/* !Skills */
+#Logos {
+    background:#252525;
+    background:rgba(100, 100, 100, 0.5);
+    padding-top:30px;
+    width:95%
+}
+.logoGallery {
+    display:flex;
+    justify-content:center;
+    padding-bottom:30px;
+}
+
+/* !Experience */
+#experienceText {
+    background:#252525;
+    background:rgba(100, 100, 100, 0.5);
+}
 
 /* Special Mobile Formatting */
 @media only screen and (max-width:1024px) {
     .divider {
-        margin-top:25px;
-        margin-bottom:25px;
+        margin-top:75px;
+        margin-bottom:0px;
     }
     .jumbotron {
         display:flex;
@@ -90,11 +108,12 @@ p {
     .jumbotron h1 {
         color:#ffffff;
         font-size:xx-large;
+        margin-top:10px;
     }
     .navbar {
         display:none;
     }
-    #objectiveSection, #educationJSU, #educationHinds {
+    #objective, #educationJSU, #educationHinds {
         padding:0px;
         width:92%;
         margin-top:5px;
@@ -103,8 +122,11 @@ p {
     .educationText {
         margin-top:auto;
     }
+    #myPhoto {
+        margin-top:0px;
+    }
     img.pic {
-        display:none;
+        padding-top:15px;
     }
     h1 {
         font-size:medium;
